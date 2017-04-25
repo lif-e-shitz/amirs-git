@@ -1,0 +1,14 @@
+---
+provisioning: cloud
+
+execution:
+  scenario:
+    requests: 
+      - http://demo.blazemeter.com/echo.php?echo=${__machineName}
+
+  concurrency: 10
+  hold-for: 5m
+  locations-weighted: false
+  locations:
+    #us-west-1: 3
+    eu-central-1: 2 #Frankfurt
