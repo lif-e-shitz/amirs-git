@@ -1,3 +1,4 @@
 new file
 Fixed file
-Another line
+Another line 
+abcd
